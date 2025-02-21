@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawn of Destiny - Read my story</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lora&family=Open+Dyslexic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="https://i.ibb.co/Hpgj6qR/HD-wallpaper-puck-destruct-world-puck-rem-subaru.jpg" alt="Dawn of Destiny Logo" class="logo">
+        </div>
+        <h1 class="site-title">Dawn of Destiny</h1>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="chapter1.html">Chapter 1</a>
+            <a href="chapter2.html">Chapter 2</a>
+        </nav>
+    </header>
+   
+    <!-- Main Content Section -->
+    <!-- Main Content Area for Chapter 1 -->
+    <main class="content">
+        <div class="container">
+            <h1>Chapter 1: The Horrors of War</h1>
+            <div class="reading-area">
+                <p>War is a horrid thing. It begins with an argument between two people who confront each other</p>
+                <p>They fight, bringing everything and everyone with them to battle. Either side thinks they’ve won, but in truth, they only lost less</p>
+                <p>They will never understand that when one side is no longer able to fight, and surrenders in hopes of stopping it</p>
+                <p>War doesn’t end with a white flag. It seeps into the homes of families, into the minds of men</p>
+                <p>The fathers who have served bring a piece of war with them when they return. Their children, influenced by it, grow up forever changed.</p>
+                <p>The men who return home have lost everything—their comrades, their faith, their hope</p>
+                <p>Nightmares and sleeplessness haunt them, making the idea of home seem like an impossible dream</p>
+                <p>It’s like a twisted trick on their minds, a burden too heavy for mortal men</p>
+                <p>Leaders remain oblivious to the suffering happening in the homes of their people</p>
+                <p>Children inherit their fathers' brokenness, and mothers long to heal what can never be fixed</p>
+                <p>Politicians promise peace, but they’re the biggest keepers of lies. Nations cry for peace yet go to war for it</p>
+                <p>And all of this is done in the name of God</p>
+                <p>A God who watches, but never answers. A deity who’s seen humanity’s terrible deeds and remains silent</p>
+                <p>You start to wonder if any Father could ignore the cries and howls of His children for thousands of years</p>
+                <p>That’s because God is dead, and so, we will be too</p>
+                <p>My name is Dawn. I am one of many. I am not part of any</p>
+                <p>I came from nothing, born into something. Accepted by none, when I was young</p>
+                <p>A boy born with a blessing or a curse. An adopted kid, I was. A cry and howl that made the Gods scowl</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Settings Button -->
+    <button id="settingsButton">⚙️</button>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Chapter : The War Beyond</h2>
+
+            <!-- Navigation Buttons -->
+            <div class="nav-buttons">
+                <button>◀</button>
+                <button>🏠</button>
+                <button>⚙</button>
+                <button>▶</button>
+            </div>
+
+            <!-- Font Options -->
+            <p>Font</p>
+            <div class="font-options">
+                <button id="defaultFont" class="active">Default</button>
+                <button id="dyslexiaFont">Dyslexic</button>
+                <button id="robotoFont">Roboto</button>
+                <button id="loraFont">Lora</button>
+            </div>
+
+            <!-- Font Size Slider -->
+            <p>Font Size</p>
+            <div class="font-size-labels">
+                <span>A-</span>
+                <input type="range" min="14" max="28" value="18" id="fontSizeSlider">
+                <span>A+</span>
+            </div>
+
+            <!-- Language Selection -->
+            <p>Translation</p>
+            <select id="languageSelect">
+                <option value="en">English (Default)</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+            </select>
+
+            <!-- Text-to-Speech -->
+            <p>Text to Speech</p>
+            <div class="text-to-speech">
+                <button id="playButton">▶</button>
+                <button id="pauseButton">⏸</button>
+                <select>
+                    <option>Microsoft Zira Desktop - English</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Next Chapter Button -->
+    <button id="nextChapterButton">Next Chapter 
+
+        <a href="chapter2.html">Next Chapter</a>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Dawn of Destiny. All rights reserved.</p>
+        <p>Author: <span class="highlight">AJF</span></p>
+        <div class="container">
+            <button id="PrivacyButton">
+                <a href="privacy.html">Privacy Policy</a>
+            </button>
+            <button id="TermsButton">
+                <a href="terms.html">Terms of Service</a>
+            </button>
+        </div>
+    </footer>
+
+    <script src="fontscript.js"></script>  <!-- Make sure this points to your actual JS file -->
+    <script src="script.js"></script>
+</body>
+</html>

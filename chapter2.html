@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawn of Destiny</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+</head>
+
+<body>
+
+    <!-- Header with Navbar -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="https://i.ibb.co/Hpgj6qR/HD-wallpaper-puck-destruct-world-puck-rem-subaru.jpg" alt="Dawn of Destiny Logo" class="logo">
+        </div>
+        <h1 class="site-title">Dawn of Destiny</h1>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="chapter1.html">Chapter 1</a>
+            <a href="chapter2.html">Chapter 2</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Area for Chapter 2 -->
+    <main class="content">
+        <div class="container">
+            <h1>Chapter 2: The War Beyond</h1>
+            <div class="reading-area">
+                <p>In this world, there was a great war. We call it the War Beyond.</p>
+                <p>No one knew what happened in this war; it was before all of us came into this realm.</p>
+                <p>This realm was called Nod.</p>
+                <p>It was a realm with an infinite number of worlds, ranging from mountains so huge they could block the sun from ever shining...</p>
+                <p>Seas so deep you’d wonder if they even had a bottom...</p>
+                <p>Deserts so hot it was impossible for a normal human to survive for three hours there...</p>
+                <p>And forests so diverse you could never fully explore them.</p>
+                <p>This is what Nod is. It sounded wonderful for adventurers. In reality, it is hell.</p>
+                <p>Nod is a realm where people got transported to, to fight, to go to war...</p>
+                <p>Not with other humans, but with the monsters that inhabit Nod.</p>
+                <p>Humanity as a species had survived the War Beyond; however, they evolved...</p>
+                <p>Gaining abilities to help them live in the hellish and barren landscape of Earth.</p>
+                <p>However, Earth was dying long before the war...</p>
+                <p>It was after everyone was reborn again that most of us got our powers.</p>
+                <p>The process was not understood at all, but scientists were getting closer.</p>
+                <p>All we knew was some people died during their rebirth, while some did not get reborn and remained human.</p>
+                <p>They were dependent on those who got their powers. Thus, a hierarchy was established.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Settings Button -->
+    <button id="settingsButton">⚙️</button>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Settings</h2>
+
+            <!-- Navigation Buttons -->
+            <div class="nav-buttons">
+                <button>◀</button>
+                <button>🏠</button>
+                <button>⚙</button>
+                <button>▶</button>
+            </div>
+
+            <!-- Font Options -->
+            <p>Font</p>
+            <div class="font-options">
+                <button id="defaultFont" class="active">Default</button>
+                <button id="dyslexiaFont">Dyslexic</button>
+                <button id="robotoFont">Roboto</button>
+                <button id="loraFont">Lora</button>
+            </div>
+
+            <!-- Font Size Slider -->
+            <p>Font Size</p>
+            <div class="font-size-labels">
+                <span>A-</span>
+                <input type="range" min="14" max="28" value="18" id="fontSizeSlider">
+                <span>A+</span>
+            </div>
+
+            <!-- Language Selection -->
+            <p>Translation</p>
+            <select id="languageSelect">
+                <option value="en">English (Default)</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+            </select>
+
+            <!-- Text-to-Speech -->
+            <p>Text to Speech</p>
+            <div class="text-to-speech">
+                <button id="playButton">▶</button>
+                <button id="pauseButton">⏸</button>
+                <select>
+                    <option>Microsoft Zira Desktop - English</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Previous Chapter Button -->
+    <button id="previousChapterButton">
+        <a href="chapter1.html">Previous Chapter</a> 
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Dawn of Destiny. All rights reserved.</p>
+        <p>Author: <span class="highlight">AJF</span></p>
+        <div class="container">
+            <button id="PrivacyButton"><a href="privacy.html">Privacy Policy</a></button>
+            <button id="TermsButton"><a href="terms.html">Terms of Service</a></button>
+        </div>
+    </footer>
+
+    <!-- External Scripts -->
+    <script src="fontscript.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
